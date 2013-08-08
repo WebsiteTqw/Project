@@ -1,0 +1,317 @@
+#logo{
+	position: absolute;
+	top: 28px;
+	left: 0;
+}
+
+.headerTagline {
+	position: absolute;
+	right: 20px;
+	top:0px;
+}
+
+.headerBanner{
+	position: absolute; 
+	right: 0px; 
+	top:28px;
+}
+
+/* Start Member Info Bar */
+
+#topBarLeft {
+	position: absolute; 
+	top: 0px; 
+	left: 5px;
+  width: 350px;
+}
+
+.topBar {
+	height: 28px;
+	line-height: 28px;
+	vertical-align: middle;
+	color: #FFFFFF;
+	font-family: arial;
+	font-size: 11px;
+}
+
+.lang-ja_JP .topBar {
+  font-size: 10px;
+}
+
+.topBarItem {
+	float: left;
+  margin: 0 3px;
+}
+
+/* Start Icons */
+
+#icons a {
+	margin: 5px 0 0 0;
+	display: block;
+}
+
+#chatArea {
+	padding: 0 317px 0 0; /* Center image adjustment for logo frame */
+}
+
+#chatBackground {
+	position: relative; 
+	z-index: 999;
+	background-image: url(https://static-cdn.ashleymadison.com/site/images/v2/private/header/2008/bg_header_chat.jpg);
+	padding: 5px 0 0 12px;
+	background-repeat: no-repeat;
+	height: 162px;
+	width: 418px;
+}
+
+/* Start Nav - Menu Bar */
+
+.navItems {
+	background-image: url(https://static-cdn.ashleymadison.com/site/images/v2/private/header/2008/nav_bg.gif);
+	height: 31px;
+	padding: 4px 0 0 0;
+}
+
+.navItems a {
+	font-family: arial;
+	color: #FFFFFF;
+	font-size: 12px;
+	margin: 0 0 0 0;
+}
+
+.round {
+	cursor:pointer; 
+	cursor:hand; 
+	line-height:27px;
+	background:url(https://static-cdn.ashleymadison.com/site/images/v2/private/header/2008/nav_button_hilite.gif) no-repeat right top; 
+	padding-right:10px; 
+	vertical-align:middle;
+	display:block; /*opera*/
+	display:inline-block; /*ie*/
+	display:-moz-inline-box;  /*ff*/
+}
+
+.round span { 
+	background:url(https://static-cdn.ashleymadison.com/site/images/v2/private/header/2008/nav_button_hilite.gif) no-repeat left top; 
+	height:26px;
+	display:block;
+	display:inline-block;
+	padding-left:10px; 
+	line-height:26px;
+}
+
+a.round:hover {
+	background-position:right -155px;
+	color: #95409f;
+	text-decoration: none;
+}
+
+a.round:hover span {
+	background-position:left -155px;
+	color: #95409f;
+	text-decoration: none;
+}
+
+/* Make them stick on click */
+
+.roundOver {
+	cursor:pointer; 
+	cursor:hand; 
+	line-height:27px;
+	background:url(https://static-cdn.ashleymadison.com/site/images/v2/private/header/2008/nav_button.gif) no-repeat right top; 
+	background-position:right -155px;
+	color: #95409f;
+	text-decoration: none;
+	padding-right:10px; 
+	vertical-align:middle;
+	display:block; /*opera*/
+	display:inline-block; /*ie*/
+	display:-moz-inline-box;  /*ff*/
+}
+
+.roundOver span { 
+	background:url(https://static-cdn.ashleymadison.com/site/images/v2/private/header/2008/nav_button.gif) no-repeat left top; 
+	background-position:left -155px;
+	color: #95409f;
+	text-decoration: none;
+	height:27px;
+	display:block;
+	display:inline-block;
+	padding-left:10px; 
+	line-height:27px;
+}
+
+/* Start Search */
+
+#search {
+	margin: 2px 0 0 0;
+}
+
+#search table {
+  margin: 0 auto;
+}
+
+#search input, #search select {
+	border: 1px solid #d3d3d3;
+	height: 20px;
+	color: #8f8f8f;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 2px;
+	margin: 0;
+}
+
+#search a{
+	color: #a04ea0;
+	text-decoration: underline;
+	font-size: 11px;
+	font-family: arial;
+}
+
+.searchText {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 11px;
+	color: #6f6c6c;
+}
+
+/* Panic Button */
+
+#panic {
+	position: absolute;
+	right: 15px;
+	top: 42px;
+}
+
+/* New CSS3 buttons */
+#search .button {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 8px 10px;
+  width: auto;
+  height: auto;
+  color: #2071d7;
+  text-decoration: none;
+  font:bold 14px/19px Arial;
+  vertical-align: middle;
+  background: none;
+  background: transparent url('/images/button_sprites.png?hello') no-repeat top left;
+  border: 1px solid #e5d2e8;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-box-shadow: 0 1px 3px #E9E9E9;
+  -webkit-box-shadow: 0 1px 3px #E9E9E9;
+  box-shadow: #E9E9E9 0px 1px 3px;
+  text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+  cursor: pointer;
+  overflow: visible; /* IE Button Horizontal Padding Fix */
+  zoom:1;
+}
+.ie7 #search .button, #search .ie8 .button {
+  behavior: url('/PIE.htc'); /* IE CSS3 Support */
+}
+.ie6 #search .button {
+  height:18px;
+}
+
+html>body #search input.button { 
+  *padding: 6px 10px; /* IE7 Padding Fix*/
+}
+
+#search .button:hover {
+  background-position: 0 -36px;
+}	
+#search .button:focus {
+  outline:none;
+  box-shadow: #A016B1 0px 0px 5px;
+  -webkit-box-shadow: 0 0 5px rgba(188, 57, 204, 1);
+  -moz-box-shadow: 0 0 5px rgba(188, 57, 204, 1);
+}  
+
+
+#search .button.toolbar { 
+  _height: 15px; /* IE6 Patch MS Featured Extra Button Padding Sigh */
+  line-height: 15px;
+	padding: 2px 8px;
+	font-size: 11px;
+	color: #565656;
+	border: 1px solid #a2a2a2;
+	background-position: 0 -360px;
+}
+#search .button.toolbar:hover { 
+  background-position: 0 -396px;
+}
+
+#search {
+	background:#eaeaea; 
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eaeaea', endColorstr='#d7d7d7');
+  background: -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#d7d7d7));
+  background: -moz-linear-gradient(top,  #eaeaea,  #d7d7d7);
+  border-bottom: solid 1px #999;
+  text-align: center;
+  height: 32px;
+  padding-top: 6px;
+  color: #888;
+  font-family: arial;
+  font-size: 12px;
+  margin: 0px;
+}
+.ie6 #search,
+.ie7 #search,
+.ie8 #search {
+  padding: 6px 0 5px 0;
+}
+
+#menu {
+  margin: 0px;
+  height: 36px;
+  background-color: #a866b1;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: solid 1px #8e3787;
+  white-space: nowrap;
+  text-align: center; }
+  #menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px; }
+  #menu .menuItem {
+    display: inline-block; }
+    .ie8 #menu .menuItem,
+    .ie7 #menu .menuItem,
+    .ie6 #menu .menuItem {
+      display: inline;
+      zoom: 1; }
+  #menu a {
+    color: #fff;
+    display: block;
+    padding: 10px 15px 10px 15px;
+    height: 16px;
+    cursor: pointer;
+    text-decoration: none; }
+    .ie8 #menu a,
+    .ie7 #menu a,
+    .ie6 #menu a {
+      display: inline; }
+    #menu a:hover {
+      background-color: #8e3787; }
+
+.logoutMenu {
+  position: absolute;
+  top: 0px;
+  right: 20px; }
+  .logoutMenu .topbaritem {
+    float: right;
+    padding: 0px 10px 0 10px; }
+    .topbaritem a {
+      color: #fff;
+      text-decoration: none; }
+  .logoutMenu .topbaritemlink {
+    margin-top: 6px; }
+
+.lang-pt_BR #menu {
+  text-transform: none;
+}

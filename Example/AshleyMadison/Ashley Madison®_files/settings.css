@@ -1,0 +1,127 @@
+/* Global */
+
+input, textarea {
+	font-family: arial;
+}
+
+#settingsContainer {
+	width: 850px;
+	border: 1px solid #b3b3b3;
+}
+
+#settingsNav {
+	width: 200px;
+	border-right: 1px solid #b3b3b3;
+	background-color: #f8f4f7;
+	padding: 10px 0 10px 0;
+}
+
+#settingsNav,
+.deletedSelectedButton {
+  width: 200px;
+}
+
+#settingsContent {
+	padding: 18px;
+	font-size: 12px;
+}
+
+a.settingNavItem {
+  height: 26px;
+	line-height: 22px;
+	font-size: 11px;
+	color: #000;
+	font-family: arial;
+	vertical-align: middle;
+	display: block;
+	text-decoration: none;
+}
+html.ipad .lang-el_GR a.settingNavItem {
+  font-size:10px;
+}
+
+a.settingNavItem:hover span {
+	text-decoration: underline;
+}
+
+.settingNavItem IMG {
+	position: relative;
+	top: 4px;
+	border: none;
+	padding: 0 2px 0 10px;
+}
+
+a.settingNavItem.active {
+	background-image: url(../private/settings/settings_nav_hilite.gif);
+	color: #FFF;
+}
+
+.areaTitle {
+	color: #88b3e9;	
+	font-family: arial;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 0 0 10px 0;
+}
+
+.settingInfo {
+	color: #a265a9;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.settingsNote {
+	background-color: #f8f4f7;
+	border-bottom: 1px solid #eee0f0;
+	padding: 10px;
+}
+
+a.settingsLink {
+	text-decoration: none;
+	color: #87A2C4;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 11px;
+}
+
+.note, #l_traffic {
+	position: relative;
+	width: 666px;
+	background-color: #fff4e3;
+	border: 1px solid #f5e9d7;
+	text-align: center;
+	padding: 10px 20px 10px 0;
+	color: #000;
+	margin: 0 0 10px 0;
+  font-size: 14px;
+}
+
+.note-bold {
+  color: #f00;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.noteclose {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+
+.settingsDivider {
+	color: #eee0f0;
+	background-color: #eee0f0;
+	height: 1px;
+	line-height: 1px;
+	font-size: 1px;
+	margin: 10px 0 10px 0;
+}
+
+.ratelimiter {
+  width:auto;
+  color:#e00;
+  font:10px Verdana, Arial, sans-serif;
+}

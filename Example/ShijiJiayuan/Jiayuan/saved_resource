@@ -1,0 +1,1 @@
+if (typeof display_div !=undefined ){ display_div(true);}

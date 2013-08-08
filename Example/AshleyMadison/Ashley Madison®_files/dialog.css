@@ -1,0 +1,167 @@
+.subDialog {
+    font-family: arial, verdana, sans-serif;
+    background-color: #fff;
+    border: 1px solid #b3b3b3;
+    margin: 0px 5px 0px 5px;
+    font-size: 11px;
+    padding: 0px;
+    color: #585858;
+} 
+
+body.lang-el_GR .subDialog{
+    font-size:9px;
+}
+
+div.subDialog{
+    max-height:140px;
+    height:140px;
+}
+
+#startSessionButton{
+    float:left;
+    margin:0 0 5px 190px;
+}
+
+body.lang-el_GR #startSessionButton{
+    float:left;
+    margin:0 0 5px 198px;
+}
+
+body.lang-fr_FR #startSessionButton{
+    float:left;
+    margin:-38px 0 5px 223px;
+}
+
+body.lang-es_ES #startSessionButton{
+    float:left;
+    margin:-38px 0 5px 298px;
+}
+
+body.lang-es_US #startSessionButton{
+    float:left;
+    margin:-38px 0 5px 298px;
+}
+
+body.lang-de_DE #startSessionButton{
+    float:left;
+    margin:-38px 0 5px 285px;
+}
+
+body.lang-pt_BR #startSessionButton{
+    float:left;
+    margin:-38px 0 5px 257px;
+}
+
+body.lang-it_IT #startSessionButton{
+    float:left;
+    margin:0 0 5px 178px;
+}
+
+body.lang-nb_NO #startSessionButton{
+    float:left;
+    margin:0 0 5px 218px;
+}
+body.lang-ja_JP #startSessionButton{
+    float:right;
+    margin: 0 20px 5px 0;
+}
+
+html.ie #startSessionButton{
+    position:relative;
+    right:3px;
+}
+
+html.gecko #startSessionButton{
+    position:relative;
+    right:4px;
+}
+
+html.gecko body.lang-es_US #startSessionButton{
+    position:relative;
+    right:0px;
+}
+
+html.gecko body.lang-nb_NO #startSessionButton{
+    position:relative;
+    right:6px;
+}
+
+html.gecko body.lang-de_DE #startSessionButton{
+    right:0px;
+}
+
+html.gecko body.lang-es_ES #startSessionButton{
+    right:0px;
+}
+
+html.gecko body.lang-pt_BR #startSessionButton{
+    right:0px;
+}
+
+html.gecko body.lang-el_GR #startSessionButton{
+    right:1px;
+}
+
+html.ie body.lang-fr_FR #startSessionButton{
+    position:relative;
+    right:10px;
+}
+
+html.ie body.lang-pt_BR #startSessionButton{
+    position:relative;
+    right:5px;
+}
+
+html.ie body.lang-it_IT #startSessionButton{
+    position:relative;
+    right:2px;
+}
+
+html.ie body.lang-fi_FI #startSessionButton{
+    position:relative;
+    right:0px;
+}
+
+.subDialog fieldset 
+{
+border:1px solid #A7B9C8;
+font-weight:bold;
+margin:0 5px;
+padding:0 0 0 5px;
+}
+.subDialog input {
+    margin: 0px;
+    padding: 0px;
+}
+.subDialog legend {
+    color: #2871d7;
+    font-weight: bold;
+}
+
+body.lang-fr_FR .subDialog select.declineReason {
+  width: 360px;
+}
+
+body.lang-fr_FR .subDialog button.buttonSelectPackage {
+  font-size: 11px;
+}
+.caption 
+{
+color:#4E4E4E;
+font-family:arial,verdana,sans-serif;
+font-size:12px;
+font-weight:bold;
+height:17px;
+line-height:17px;
+margin-left:18px;
+text-align:left;
+vertical-align:middle;
+}
+.caption a:link, .caption a:active, .caption a:visited, .caption a:hover
+{
+    color: #6584ab;
+}
+.information a:link, .information a:active, .information a:visited, .information a:hover
+{
+    color: #6584ab;
+}
