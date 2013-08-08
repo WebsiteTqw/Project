@@ -1,0 +1,19 @@
+body{
+  background-color:#c02680;
+ 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: Arial, Sans-Serif;
+  line-height:1;
+  height:auto;
+}
+
+/*中间白色主框部分*/
+#main_frame {margin:0px;padding:0px; width:970px; margin:40px auto; height:400px; background-color:#fff; background:#fff;}
+/*中间白底部分*/
+#main_frame .main_part {width:920px; height:350px; margin:30px 25px; background-color:#fd5c90; float:left;}
+/*注册以及登陆部分*/
+#main_frame .login_frame {}
+
+#main_frame .login_frame {margin:0px;padding:0px;}
