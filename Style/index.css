@@ -1,6 +1,12 @@
 body{
   background-color:#c02680;
- 
+  /*
+  background-image: -moz-radial-gradient(center center, circle cover, #ff0080 45%, #a5004d 75%);
+  background-image: -webkit-radial-gradient(center center, circle cover, #ff0080 45%, #a5004d 75%);
+  background-image: -o-radial-gradient(center center, circle cover, #ff0080 45%, #a5004d 75%);
+  background-image: -ms-radial-gradient(center center, circle cover, #ff0080 45%, #a5004d 75%);
+  background-image: radial-gradient(center center, circle cover, #ff0080 45%, #a5004d 75%);
+	*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
@@ -8,12 +14,70 @@ body{
   line-height:1;
   height:auto;
 }
+/*∂•∂Àµƒµ«¬Ω*/
+#top_part  {width:970px; height:20px; display:block;text-align:right;margin:0px auto;font-size:12px;padding:0px 8px 0px 0px;position:relative;}
+#top_part a:visited,a:active{ text-decoration:none; color:#FFFFFF; }
+#top_part a:link { text-decoration:underline; color:#FFFFFF; }
+#top_part a:hover { background:#CCCCCC;}{color:#e7417f;text-decoration:underline}
 
-/*‰∏≠Èó¥ÁôΩËâ≤‰∏ªÊ°ÜÈÉ®ÂàÜ*/
-#main_frame {margin:0px;padding:0px; width:970px; margin:40px auto; height:400px; background-color:#fff; background:#fff;}
-/*‰∏≠Èó¥ÁôΩÂ∫ïÈÉ®ÂàÜ*/
-#main_frame .main_part {width:920px; height:350px; margin:30px 25px; background-color:#fd5c90; float:left;}
-/*Ê≥®ÂÜå‰ª•ÂèäÁôªÈôÜÈÉ®ÂàÜ*/
-#main_frame .login_frame {}
 
-#main_frame .login_frame {margin:0px;padding:0px;}
+/*÷–º‰∞◊…´÷˜øÚ≤ø∑÷*/
+#main_frame {padding:0px;width:970px; margin:10px auto;  height:520px; background-color:#fff;}
+
+/*÷–º‰∫⁄µ◊≤ø∑÷*/
+#main_frame .main_part {width:940px; height:490px; margin:15px 15px; background-color:#000; float:left;}
+
+/*◊¢≤·≤ø∑÷*/
+/*#main_frame .reg_frame {width:360px; height:340px; background-color:#fff; margin:0px 20px;float:right;}*/
+#reg_frame {width:360px; height:340px; background-color:#fff;position: absolute; margin:15px 0px 0px 570px; color:#000;z-index: 100;}
+#reg_frame  .reg_frame_top {width:100%; height:50%; background-color:#fff; display:inline-block;}
+#reg_frame  .reg_frame_bottom {width:100%; height:50%; margin:0px; background-color:#FFBFFF; display:inline-block;}
+#reg_frame  .reg_frame_bottom select {width:200px; height:30px; margin:2px 0px 0px 3px;}
+#reg_frame  a.select_match{width:200px; height:20px; background-color:#c02680; display:block; text-align:center; padding:4px 0px; line-height:20px; vertical-align:middle; border:1px solid #FFF;}
+#reg_frame  p.reg_frame_bottom {display:inline-block;}
+
+#reg_frame a:visited,a:active,a:link{ text-decoration:none; color:#FFFFFF; }
+#reg_frame a:hover { background:#CCCCCC;}{color:#e7417f;text-decoration:underline}
+
+/*Õ∏√˜≤„ */
+#top_fill{display:none;text-align:center;position:absolute;z-index:1003;filter:alpha(opacity=50);background-color:#eee;opacity: 0.5;-moz-opacity: 0.5;width:100%; margin:0px;} 
+/*#top_fill{display:none;text-align:center;position:absolute;z-index:999;filter:alpha(opacity=50);background-color:#eee;-moz-opacity: 0.5;width:100%;} */
+/*µØ≥ˆµ«¬ΩøÚ*/
+#pop_login 
+{
+
+width:400px; 
+height:170px;
+margin:170px 500px;
+background-color:#c02680;
+display:none;
+
+/*display: block;*/
+position: absolute;
+font-size:11px;
+padding-top:5px;
+
+z-index:1003;
+left: 0px;
+top: 0px;
+text-align:center;
+border:0px #fff solid; 
+
+}
+
+/*’À∫≈*/
+#pop_login .pop_zh span, p.pop_mm span {float:left;color:#666}
+/*√‹¬Î*/
+#pop_login .pop_zh input, p.pop_mm input {margin:0px;padding:0px 0px 0px 2px;width:98px;height:14px;line-height:14px;float:left;border-width:1px;border-style:solid;border-color:#bababa #e3e3e3 #e3e3e3 #bababa;margin:3px 0px 0px 8px;color:#333}
+/*µ«¬º∞¥≈•*/
+#pop_login .pop_dl {margin:1px 0px 0px 0px;width:42px;height:19px;line-height:16px;text-align:center;color:#fff;background:url(http://images1.jyimg.com/w4/common/i/head/jycm_top_btn_dl.png) no-repeat;border:none;cursor:pointer;padding:0px 0px 2px 0px}
+#pop_login .pop_dl{padding:2px 0px 0px 0px\0; *padding:3px 0px 0px 0px}
+/*πÿ±’µ«¬ºøÚ*/
+#pop_login .pop_close{float:right; padding-right:6px;}
+
+#pop_login a:visited,a:active{ text-decoration:none; color:#FFFFFF; }
+#pop_login a:link { text-decoration:underline; color:#FFFFFF; }
+#pop_login a:hover { background:#CCCCCC;}{color:#e7417f;text-decoration:underline}
+
+
+

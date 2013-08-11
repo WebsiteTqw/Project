@@ -6,14 +6,65 @@
 <style type="text/css">
 @import url(Style/index.css);
 </style>
-</head>
-	<div id="main_frame">
-    	<div class="main_part">
-        	<div class="login_frame">
+<script type="text/javascript" src="Js/index.js"> </script>
+
+</head>	
+<body onload="oload()">
+	  <div id="top_fill">
+        
+    </div>
+    <div id="pop_login">
+    
+            <div class="pop_close">
+                <a href="#" onclick="closePoplogin()">关闭</a>
             </div>
+            <p class="jycm_top_zh">
+                <span>帐号</span>
+                <input type="text" name="name" />
+            </p>
+            <p class="jycm_top_mm">
+                <span>密码</span>
+                <input type="password" autocomplete="off" name="password" />
+            </p>
+            </p><input class="pop_dl" type="submit" value="登录" />
+            <a> &nbsp&nbsp </a>
+            <a href="#"> 忘记密码</a>
+    
         </div>
+    <div id="top_part" class="top_part">
+        <a class="user_login" href="#" onclick="onPoplogin()">账号登陆
+        </a>
+    </div>
+  
+	<div id="main_frame">
+    	<div class="main_part"> </div> 
+
+        <div id="reg_frame">
+        	<div class="reg_frame_top"> 
+            	<p>人生苦短 及时行乐</p>      
+        	</div>
+
+        	<div class="reg_frame_bottom">
+            	<p>请郑重选择你的需求:</p>
+                <select>
+                  <option value ="nan">男性寻找女性</option>
+                  <option value ="saab">女性寻找男性</option>
+                  <option value="opel">男性寻找男性</option>
+                  <option value="audi">女性寻找女性</option>
+                </select>
+                <p></p>
+                <a class="select_match" href="#">选择你的喜好</a>
+
+            
+            <div>
+
+        </div>
+
+               
+
     </div>
 
-<body>
+
+
 </body>
 </html>
