@@ -13,7 +13,11 @@ body{
   font-family: Arial, Sans-Serif;
   line-height:1;
   height:auto;
+  margin: 0px;
+  padding: 0px;
 }
+
+
 /*¶¥¶ËµÄµÇÂ½*/
 #top_part  {width:970px; height:20px; display:block;text-align:right;margin:0px auto;font-size:12px;padding:0px 8px 0px 0px;position:relative;}
 #top_part a:visited,a:active{ text-decoration:none; color:#FFFFFF; }
@@ -40,8 +44,9 @@ body{
 #reg_frame a:hover { background:#CCCCCC;}{color:#e7417f;text-decoration:underline}
 
 /*Í¸Ã÷²ã */
-#top_fill{display:none;text-align:center;position:absolute;z-index:1003;filter:alpha(opacity=50);background-color:#eee;opacity: 0.5;-moz-opacity: 0.5;width:100%; margin:0px;} 
-/*#top_fill{display:none;text-align:center;position:absolute;z-index:999;filter:alpha(opacity=50);background-color:#eee;-moz-opacity: 0.5;width:100%;} */
+/*
+#top_fill{display:none;text-align:center;position:absolute;z-index:1003;filter:alpha(opacity=50);background-color:#eee;opacity: 0.5;-moz-opacity: 0.5;width:100%; margin:0px;} */
+#top_fill{display:none;text-align:center;position:absolute;z-index:999;filter:alpha(opacity=50);background-color:#eee;-moz-opacity: 0.5;width:100%;} 
 /*µ¯³öµÇÂ½¿ò*/
 #pop_login 
 {
