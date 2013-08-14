@@ -19,7 +19,7 @@ body{
 
 
 /*¶¥¶ËµÄµÇÂ½*/
-#top_part  {width:970px; height:20px; display:block;text-align:right;margin:0px auto;font-size:12px;padding:0px 8px 0px 0px;position:relative;}
+#top_part  {width:970px; height:20px; display:block;text-align:right;margin:2px auto;font-size:12px;padding:8px 3px 0px 0px;position:relative;}
 #top_part a:visited,a:active{ text-decoration:none; color:#FFFFFF; }
 #top_part a:link { text-decoration:underline; color:#FFFFFF; }
 #top_part a:hover { background:#CCCCCC;}{color:#e7417f;text-decoration:underline}
@@ -33,12 +33,11 @@ body{
 
 /*×¢²á²¿·Ö*/
 /*#main_frame .reg_frame {width:360px; height:340px; background-color:#fff; margin:0px 20px;float:right;}*/
-#reg_frame {width:360px; height:340px; background-color:#fff;position: absolute; margin:15px 0px 0px 570px; color:#000;z-index: 100;}
-#reg_frame  .reg_frame_top {width:100%; height:50%; background-color:#fff; display:inline-block;}
-#reg_frame  .reg_frame_bottom {width:100%; height:50%; margin:0px; background-color:#FFBFFF; display:inline-block;}
+#reg_frame {width:330px; height:340px; background-color:#fff;position: absolute; margin:15px 0px 0px 600px; text-align:center; color:#000;z-index: 100;}
+#reg_frame  .reg_frame_top {width:100%; height:50%; background-color:#fff; display:inline-block; background-image:url(../Image/tqw.jpg)}
+#reg_frame  .reg_frame_bottom {width:100%; height:50%; margin:0px; background-color: #FFE6FF; display:inline-block; font-family:LiSu}
 #reg_frame  .reg_frame_bottom select {width:200px; height:30px; margin:2px 0px 0px 3px;}
-#reg_frame  a.select_match{width:200px; height:20px; background-color:#c02680; display:block; text-align:center; padding:4px 0px; line-height:20px; vertical-align:middle; border:1px solid #FFF;}
-#reg_frame  p.reg_frame_bottom {display:inline-block;}
+#reg_frame  a.select_match{width:200px; height:20px; background-color:#c02680; display:block; padding:4px 0px; line-height:20px; vertical-align:middle; border:1px solid #FFF; margin:0px 65px;}
 
 #reg_frame a:visited,a:active,a:link{ text-decoration:none; color:#FFFFFF; }
 #reg_frame a:hover { background:#CCCCCC;}{color:#e7417f;text-decoration:underline}
@@ -52,7 +51,7 @@ body{
 {
 
 width:400px; 
-height:170px;
+height:150px;
 margin:170px 500px;
 background-color:#c02680;
 display:none;
