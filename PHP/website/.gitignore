@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+.htaccess
+
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+

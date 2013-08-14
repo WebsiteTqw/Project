@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /assets/
+
+Sitemap: http://xxx.com/sitemap.xml
